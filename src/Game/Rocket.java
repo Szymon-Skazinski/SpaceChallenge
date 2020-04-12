@@ -14,7 +14,6 @@ public class Rocket implements SpaceShip {
     final public boolean canCarry(Item item) {
         return false;
     }
-    final public boolean carry(Item item) {
-        return false;
+    final public void carry(Item item) {
     }
 }

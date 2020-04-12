@@ -2,10 +2,10 @@ package Game;
 
 public interface SpaceShip {
 
-    boolean launch();
-    boolean land();
-    boolean canCarry(Item item);
-    boolean carry(Item item);
+    public boolean launch();
+    public boolean land();
+    public boolean canCarry(Item item);
+    public void carry(Item item);
 
 
 }
