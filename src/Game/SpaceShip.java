@@ -7,5 +7,4 @@ public interface SpaceShip {
     public boolean canCarry(Item item);
     public void carry(Item item);
 
-
 }
